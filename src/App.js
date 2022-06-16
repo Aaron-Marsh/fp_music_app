@@ -19,7 +19,6 @@ const App = (props) => {
         <input type="submit"></input>
     </form>
     <h2>Hello {username ? username : 'Friend'}!</h2>
-    <p>***********************************</p>
     </>
     )
 }

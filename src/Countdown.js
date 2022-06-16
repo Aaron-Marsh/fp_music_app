@@ -32,7 +32,7 @@ const Countdown = () => {
         In this case, I need to clear the interval */
         return () => clearInterval(int);
     }, [bg]);
-    return <p style={{backgroundColor: bg, color: 'white'}}>{timer}</p>
+    return <p style={{'background-color': bg, color: 'white'}}>{timer}</p>
 }
 
 export default Countdown
