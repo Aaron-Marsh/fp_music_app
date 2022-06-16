@@ -1,4 +1,33 @@
 nav {
     display: flex;
     justify-content: space-evenly;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+    text-align: center;
+    color:green;
+    width: 10rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.back {
+    color: red;
+    border: solid red 2px;
+    border-radius: 10px;
+}
+
+.back:hover {
+    text-decoration: none;
+    background-color: green;
+
 }
