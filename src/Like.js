@@ -11,7 +11,7 @@ const Like = () => {
         }
     }
     return (
-<div onClick={handleFavouritedClick} style = {{color: favourited, 'font-size':'40px', 'line-height':'50%'}}>★</div>
+<div onClick={handleFavouritedClick} style = {{color: favourited, fontSize:'40px', lineHeight:'50%'}}>★</div>
     )
 }
 

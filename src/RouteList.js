@@ -6,7 +6,9 @@ import App from './App';
 import Beatles from './Beatles';
 import Albums from './Albums';
 import Lyrics from './Lyrics'
-import Countdown from './Countdown'
+import Countdown from './Countdown';
+import AlbumList from './AlbumList';
+import AlbumAdd from './AlbumAdd';
 import Greeting from './Greeting';
 
 const RouteList = () => {
@@ -24,6 +26,8 @@ return(
                         <Countdown />
                         <Beatles />
                         <Albums />
+                        <AlbumList />
+                        <AlbumAdd />
                         {/* <Greeting /> */}
                         </>
                 } />
